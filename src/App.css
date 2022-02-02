@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+.User {
+  margin-top: 40px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 187, 0);
+  color: #000000;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  padding: 24px 16px;
+}
+
+.Input {
+  margin-top: 40px;
+}
+
+.avatar {
+  position: absolute;
+  top: 24px;
+  width: 80px;
+  border-radius: 40px;
+  cursor: zoom-in;
+}
+
+.userContent {
+  text-align: center;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+}
