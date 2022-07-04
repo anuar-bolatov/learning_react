@@ -3,12 +3,13 @@ import User from './user';
 import List from './List';
 
 const listItems = [
-  {listContent: 'Dog'},
-  {listContent: 'Cat'},
-  {listContent: 'Chicken'},
-  {listContent: 'Cow'},
-  {listContent: 'Horse'}
+  {listItem: '🐶 Dog'},
+  {listItem: '🐱 Cat'},
+  {listItem: '🐔 Chicken'},
+  {listItem: '🐮 Cow'},
+  {listItem: '🐴 Horse'}
 ];
+
 
 function App() {
   return (
@@ -22,4 +23,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; 
