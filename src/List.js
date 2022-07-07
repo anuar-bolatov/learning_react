@@ -1,6 +1,3 @@
-
-
-
 function List(props) {
     const listContent = props.listItems.map((content) =>
         <div className='listItemStyle' key={content.toString()}>{content.listItem}</div>
