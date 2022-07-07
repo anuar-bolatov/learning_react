@@ -21,9 +21,8 @@ class Form extends React.Component {
 
     render() {
         return (
-            <div className='formContainer'>
+            <>
                 <form onSubmit={this.handleSubmit}>
-                    <div className='formSelector'>
                         <label>
                             Title:
                             <select value={this.state.value} onChange={this.handleChange}>
@@ -32,9 +31,7 @@ class Form extends React.Component {
                                 <option value="Other">Other</option>
                             </select>
                         </label>
-                    </div>
-                    
-                    <div className='formInput'>
+                
                         <label>
                             First name: 
                             <input type="text" name={this.state.value} onChange={this.handleChange} />
@@ -44,11 +41,10 @@ class Form extends React.Component {
                             Second name:
                             <input type="text" surname={this.state.value} onChange={this.handleChange} />
                         </label>
-                    </div>
                     
                     <input type="submit" value="Greet me" />
                 </form>
-            </div>
+            </>
             
         );
     }
