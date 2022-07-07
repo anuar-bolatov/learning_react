@@ -27,7 +27,6 @@ function App() {
         <h1>Hi</h1>
         <Form />
       </div>
-      
     </div>
   );
 }
